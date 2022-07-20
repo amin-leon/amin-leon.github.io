@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cy Conf</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .hero-image {
+          background-color: rgb(185, 185, 13);
+          height: 50%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        
+        .hero-text {
+          text-align: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+        }
+        
+        .hero-text button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 10px 25px;
+          color: black;
+          background-color: #ddd;
+          text-align: center;
+          cursor: pointer;
+        }
+        
+        .hero-text button:hover {
+          background-color: rgb(85, 85, 85);
+          color: white;
+        }
+        
+        .container-all{
+            background-color: black;
+            position: sticky;
+        }
+        nav{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .card-container{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .speaker{
+            height: 3cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        hr{
+            width: 100%;
+            color:gray;
+            height: 1px;;
+            margin-top: 0px;
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+        .ter{
+            display: flex;
+            justify-content: space-between;
+        }
+        .col{
+            padding-top: 20px;
+        }
+        
+        
+        </style>
+</head>
+<body>
+    
+<div class="container-all" >
+        <nav class="navbar sticky-lg-top navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Speaker</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Schedule</a>
+                  </li>
+                </ul>
+                <span class="navbar-text text-light">
+                 Prapered By Leon
+                </span>
+                
+              </div>
+            </div>
+        </nav>
+        </div>
+
+
+
+<!--Hero image -->
+      
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Full Stack Conf</h1>
+          <p>A one-Day Conference About All Things Javascript</p>
+          <button>Register Now</button><button>See Speakers</button>
+        </div>
+      </div>
+
+      <!--cards-->
+
+    <div class="card-container">
+        <div class="card-group">
+            <div class="card border-0">
+              
+              <div class="card-body">
+                <h3 class="card-title">Expert Speakers</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div>
+            </div>
+            <div class="card border-0 p-4" >
+              <h3 class="card-title">About Full Stack Conf</h3>
+              
+              <div class="card-body">
+                <img class="card-img-top" src="web_demo/seoul.jpg">
+                <p class="card-text">xamples might be simplified to improve reading and learning. Tutorials, references,
+                     and examples are constantly reviewed to avoid errors, 
+                    but we cannot warrant full correctness of all content. While using W3Schools, you agree t.</p>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                
+              </div>
+            </div>
+            <div class="card border-0 p-4">
+                <h3 class="card-title">What you will learn</h3>
+              <div class="card-body">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--Cards with space-->
+
+<div class="card-container">
+    <div class="speaker" >
+        <h2>SPEAKERS</h2>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+
+        </div>
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 23rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/640x360
+                ">
+                <div class="card-body">
+                  <h5 class="card-title">Leon</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+              </div>
+        </div>
+
+    
+
+</div>
+
+
+
+<div class="speaker" >
+    <h2>SCHEDULE</h2>
+</div>
+<!--SCHEDULE-->
+<ol class="list-group list-group-none">
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Playing</div>
+        Football
+      </div>
+      <span class="badge bg-primary rounded-pill bg-black">12:00am</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Singing</div>
+        Hip hop
+      </div>
+      <span class="badge bg-primary rounded-pill bg-black">13:00am</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Traveling</div>
+        National park
+      </div>
+      <span class="badge bg-primary rounded-pill bg-black">14:00am</span>
+    </li>
+
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Traveling</div>
+          National park
+        </div>
+        <span class="badge bg-primary rounded-pill bg-black">15:00am</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Traveling</div>
+          National park
+        </div>
+        <span class="badge bg-primary rounded-pill bg-black">16:00am</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Traveling</div>
+          National park
+        </div>
+        <span class="badge bg-primary rounded-pill bg-black">17:00am</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">Traveling</div>
+          National park
+        </div>
+        <span class="badge bg-primary rounded-pill bg-black">18:00am</span>
+      </li>
+  </ol>
+
+  <div class="speaker" >
+
+
+
+    <div>
+        
+    <button type="button" style="background-color: black;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Dont miss out Register Now
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Payment</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <form> <div class="mb-3"> <label for="exampleInputEmail1" class="form-label">Names:</label> <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> <div id="emailHelp" class="form-text"></div> </div> <div class="mb-3"> <label for="exampleInputEmail1" class="form-label">Email:</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> <div id="emailHelp" class="form-text"></div> </div> <div class="mb-3"> <label for="exampleInputPassword1" class="form-label">Job Role:</label> <input type="number" class="form-control" id="exampleInputPassword1" placeholder=" Full Stack Js Developer"> </div> Which Topic interest you most
+            
+            </div>
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+<hr>
+<div class="bottom" >
+    
+    <div class="boto1">
+        <h4>About paragraph</h4>
+        <p style="padding: 5px;">Text messaging, or texting, is the act of composing<br> and sending electronic 
+            messages, typically consisting of <br>alphabetic and numeric characters</p>
+    </div>
+
+    <div class="boto1">
+        <h4>Stay Up To Date On paragraph Conference</h4>
+        
+          
+          <div class="input-group mb-3 p-4">
+            <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary bg-dark text-light" type="button" id="button-addon2 ">Sign up</button>
+          </div>
+          
+          
+    </div>
+    </div>
+    <hr>
+    <div class="bottom" >
+    
+        <div class="boto1">
+            <div class="ter">
+            <div class="col-md-1">
+                <p>comity</p>
+                
+            </div>
+            <div class="col-md-1">
+                <p>Tracks</p>
+                
+            </div>
+            <div class="col-md-6">
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary" style="background: #585c61">
+                      Other confs
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="background: #1d3557">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">CSS</a></li>
+                        <li><a class="dropdown-item" href="#">Maths</a></li>
+                        <li><a class="dropdown-item" href="#">O.s</a></li>
+                        <li><a class="dropdown-item" href="#">TPB</a></li>
+                      </ul>
+                    </div>
+            </div>
+  
+        </div>
+        </div>
+    
+        <div class="boto1">
+            <p>@SFull stack conf & paragraph </p>
+            
+              
+        </div>
+    
+        </div> 
+
+</div>
+      
+      
+           
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
