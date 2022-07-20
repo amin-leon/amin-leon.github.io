@@ -2,9 +2,9 @@
 # web-styling-exo-cis-2022
 Web Styling
 
-Registration Number:
-<br>Name: 
-<br> URL of the hosted site: 
+Registration Number:220000862
+<br>Name: NDAYISHIMIYE Leon Pierre
+<br> URL of the hosted site: https://amin-leon.github.io/web-styling-amin-leon/index.html
 
 ## Instructions
 
