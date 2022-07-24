@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color:r;
+    max-width: 1300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    
+}
+.logo{
+    width: 40px;
+    height: 20px;
+}
+input[type=button], select{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    padding: 10px 10px;
+}
+.coner{
+    padding: 5px;
+}
+.main{
+    display: flex;
+    background-color:r;
+    justify-content: flex-start;
+    
+
+}
+.col-1{
+    flex-basis: 40%;
+    background-color:white;
+    padding-left: 10px;
+}
+.col-2{
+    flex-basis: 60%;
+    background-color:rd;
+    
+}
+.part1-col1,.part2-col1{
+    border: 1px solid green;
+}
+.part2-col1, .main-cont-2{
+    margin-top: 5px;
+}
+.start{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    width: 50%;
+    
+
+}
+.icon{
+    align-items: center;
+    flex-basis: 20%;
+    background-color: cyan;
+}
+.text{
+    align-items: center;
+    flex-basis: 80%;
+    background-color: black;
+}
+.main-main{
+    display: flex;
+}
+
+.all{
+    display: flex;
+    
+    margin: 30px 0px;
+}
+.main-cont-2{
+    background-color: b;
+    
+}
+.part1{
+    width: 100%;
+    background-color: aliceblue;
+    
+   
+    padding: 30px;
+    
+    margin-top: 10px;
+    
+    border: 2px solid red;
+
+}
+.below{
+    background-color:white;
+    height:1cm;
+    width: auto;
+    text-align: left;
+    padding: 7px ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+  .part3{
+    width: 100%;
+    background-color: rgb(172, 190, 206);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+    margin-top: 10px;
+    
+    border: 2px solid rgb(243, 243, 243);
+
+}
+.part2{
+    width: 100%;
+    background-color: rgb(208, 243, 240);
+    
+    
+    padding: 30px;
+    
+    margin-top: 10px;
+    
+    border: 2px solid red;
+
+}
