@@ -5,7 +5,7 @@ Web Styling
 Registration Number:220000862
 <br>Name: NDAYISHIMIYE Leon Pierre
 <br> URL of the hosted site: https://amin-leon.github.io/web-styling-amin-leon/index.html
-
+ https://amin-leon.github.io/leon/CV.html
 ## Instructions
 
 - Recreate the web page indicated in the web_demo folder
